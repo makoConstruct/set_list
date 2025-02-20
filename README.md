@@ -1,0 +1,1 @@
+Sorted lists are a pretty efficient way to represent and operate over sets. This library does that.

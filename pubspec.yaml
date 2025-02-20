@@ -1,0 +1,10 @@
+name: set_list
+description: Sorted lists are a pretty efficient way to represent and operate over sets. This library does that.
+version: 0.1.0
+repository: https://github.com/makoConstruct/set_list
+
+environment:
+  sdk: ^3.6.0
+
+dev_dependencies:
+  test: ^1.24.0

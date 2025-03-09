@@ -1,1 +1,3 @@
 Sorted lists are a pretty efficient way to represent and operate over sets. This library does that.
+
+It's 10x slower than HashSets for membership checks, but about 2x faster for intersections, unions and difference queries (probably because those often require scanning over the entire set), even at very small sizes (seemingly because these operations require constructing the output set, and HashSets seem quite costly to construct).
